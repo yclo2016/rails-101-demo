@@ -1,0 +1,9 @@
+想請問一下，我將rails101之前的進度branch之後，目前重做到第五章（1)的最後，當我開啟localhost:3000/groups/時出現如下的錯誤訊息
+
+如果把posts_controller跟groups_controller中的 before_action :authenticate_user!刪除，則會出現下面畫面
+
+我懷疑可能是devise安裝有問題，去確認db/schema.rb，的確看不到devise相關的欄位
+
+於是我按照步驟重裝devise，在rails g devise:install這一步出現下面訊息，我按y覆寫
+
+重裝完重開rails server還是相同的錯誤訊息..@@..不知道大家能否給我一點建議呢？感謝
